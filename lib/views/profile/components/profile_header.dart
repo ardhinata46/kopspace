@@ -62,7 +62,7 @@ class _UserData extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Shakibul Islam',
+                'Ardhi Nata',
                 style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold, color: Colors.white),
               ),

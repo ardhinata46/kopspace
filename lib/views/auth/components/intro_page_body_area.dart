@@ -25,10 +25,10 @@ class IntroPageBodyArea extends StatelessWidget {
                   Text(
                     'Welcome to our',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                        fontWeight: FontWeight.bold, color: Colors.black),
+                        fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                   Text(
-                    'E-Grocery',
+                    'Santap.id',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                         fontWeight: FontWeight.w700, color: AppColors.primary),
                   ),

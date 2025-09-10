@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:kopspace/Helpers/currency_format.dart';
 
 import '../constants/constants.dart';
 
@@ -50,7 +51,7 @@ class _PriceAndQuantityRowState extends State<PriceAndQuantityRow> {
       children: [
         /* <---- Price -----> */
         Text(
-          '\$30',
+          CurrencyFormat.convertToIdr(widget.currentPrice, 0),
           style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
@@ -59,7 +60,7 @@ class _PriceAndQuantityRowState extends State<PriceAndQuantityRow> {
         ),
         const SizedBox(width: AppDefaults.padding),
         Text(
-          '\$20',
+          CurrencyFormat.convertToIdr(widget.orginalPrice, 0),
           style: Theme.of(context)
               .textTheme
               .headlineSmall

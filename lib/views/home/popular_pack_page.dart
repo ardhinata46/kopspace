@@ -26,7 +26,7 @@ class PopularPackPage extends StatelessWidget {
                 padding: const EdgeInsets.only(top: AppDefaults.padding),
                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                   maxCrossAxisExtent: 200,
-                  childAspectRatio: 0.73,
+                  childAspectRatio: 0.65,
                   crossAxisSpacing: 16,
                   mainAxisSpacing: 16,
                 ),

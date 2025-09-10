@@ -21,7 +21,7 @@ class NewItemsPage extends StatelessWidget {
             padding: const EdgeInsets.only(top: AppDefaults.padding),
             gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
               maxCrossAxisExtent: 200,
-              childAspectRatio: 0.64,
+              childAspectRatio: 0.65,
               mainAxisSpacing: 16,
             ),
             itemCount: 8,

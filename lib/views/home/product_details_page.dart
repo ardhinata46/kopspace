@@ -32,9 +32,9 @@ class ProductDetailsPage extends StatelessWidget {
           children: [
             const ProductImagesSlider(
               images: [
-                'https://i.imgur.com/3o6ons9.png',
-                'https://i.imgur.com/3o6ons9.png',
-                'https://i.imgur.com/3o6ons9.png',
+                'https://i.imgur.com/uyLzBLH.png',
+                'https://i.imgur.com/uyLzBLH.png',
+                'https://i.imgur.com/uyLzBLH.png',
               ],
             ),
             SizedBox(
@@ -45,13 +45,13 @@ class ProductDetailsPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Cauliflower Bangladeshi',
+                      'Mie Goreng Special',
                       style: Theme.of(context).textTheme.titleLarge?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                     ),
                     const SizedBox(height: 8),
-                    const Text('Weight: 5Kg'),
+                    const Text('1 Porsi'),
                   ],
                 ),
               ),
@@ -59,8 +59,8 @@ class ProductDetailsPage extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: AppDefaults.padding),
               child: PriceAndQuantityRow(
-                currentPrice: 20,
-                orginalPrice: 30,
+                currentPrice: 20000,
+                orginalPrice: 30000,
                 quantity: 2,
               ),
             ),
@@ -81,7 +81,7 @@ class ProductDetailsPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'Duis aute veniam veniam qui aliquip irure duis sint magna occaecat dolore nisi culpa do. Est nisi incididunt aliquip  commodo aliqua tempor.',
+                    'Mie Goreng Special kami dimasak dengan bumbu tradisional khas nusantara yang gurih dan lezat. Dilengkapi dengan irisan ayam, udang segar, bakso, telur, serta sayuran segar pilihan. Disajikan dengan acar, kerupuk, dan taburan bawang goreng renyah yang menambah cita rasa.'
                   ),
                 ],
               ),

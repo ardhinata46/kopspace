@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kopspace/Helpers/currency_format.dart';
 
 import '../constants/constants.dart';
 import '../models/dummy_bundle_model.dart';
@@ -65,23 +66,24 @@ class BundleTileSquare extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 8),
-              Row(
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '\$${data.price.toInt()}',
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleLarge
-                        ?.copyWith(color: Colors.black),
+                    CurrencyFormat.convertToIdr(data.price, 0),
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                  const SizedBox(width: 4),
+                  const SizedBox(height: 4),
                   Text(
-                    '\$${data.mainPrice}',
+                    CurrencyFormat.convertToIdr(data.mainPrice, 0),
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          decoration: TextDecoration.lineThrough,
-                        ),
+                      decoration: TextDecoration.lineThrough,
+                      color: Colors.grey,
+                    ),
                   ),
-                  const Spacer(),
                 ],
               ),
               const SizedBox(height: 16),

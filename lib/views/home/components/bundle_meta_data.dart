@@ -16,7 +16,7 @@ class BundleMetaData extends StatelessWidget {
           Column(
             children: [
               Text(
-                '25 Kg',
+                '1 Paket Jumbo',
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
@@ -50,7 +50,7 @@ class BundleMetaData extends StatelessWidget {
           Column(
             children: [
               Text(
-                '17',
+                '11',
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,

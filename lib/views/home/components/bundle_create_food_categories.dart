@@ -19,24 +19,34 @@ class FoodCategories extends StatelessWidget {
         children: [
           AppChip(
             isActive: true,
-            label: 'Vegetables',
+            label: 'Appetizers',
             onPressed: () {},
           ),
           AppChip(
             isActive: false,
-            label: 'Meat & Fish',
+            label: 'Main Course',
             onPressed: () {},
           ),
           AppChip(
             isActive: false,
-            label: 'Medicine',
+            label: 'Pasta & Noodles',
             onPressed: () {},
           ),
           AppChip(
             isActive: false,
-            label: 'Baby Care',
+            label: 'Pizza',
             onPressed: () {},
           ),
+          AppChip(
+            isActive: false,
+            label: 'Salads',
+            onPressed: () {},
+          ),
+          AppChip(
+            isActive: false,
+            label: 'Grill & BBQ',
+            onPressed: () {},
+          )
         ],
       ),
     );

@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'eGrocery',
+      title: 'kopSpace',
       theme: AppTheme.defaultTheme,
       debugShowCheckedModeBanner: false,
       onGenerateRoute: RouteGenerator.onGenerate,

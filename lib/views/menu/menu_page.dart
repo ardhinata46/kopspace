@@ -41,7 +41,7 @@ class CateogoriesGrid extends StatelessWidget {
         children: [
           CategoryTile(
             imageLink: 'https://i.imgur.com/tGChxbZ.png',
-            label: 'Vegetables',
+            label: 'Appetizers',
             backgroundColor: AppColors.primary,
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
@@ -49,77 +49,77 @@ class CateogoriesGrid extends StatelessWidget {
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/yOFxoIP.png',
-            label: 'Meat And Fish',
+            label: 'Main Course',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/GPsRaFC.png',
-            label: 'Medicine',
+            label: 'Seafood',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/mGRqfnc.png',
-            label: 'Baby Care',
+            label: 'Pasta & Noodles',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/fwyz4oC.png',
-            label: 'Office Supplies',
+            label: 'Pizza',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/DNr8a6R.png',
-            label: 'Beauty',
+            label: 'Salads',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/O2ZX5nR.png',
-            label: 'Gym Equipment',
+            label: 'Grill & BBQ',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/wJBopjL.png',
-            label: 'Gardening Tools',
+            label: 'Soups',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/P4yJA9t.png',
-            label: 'Pet Care',
+            label: 'Desserts',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/sxGf76e.png',
-            label: 'Eye Wears',
+            label: 'Beverages',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/BPvKeXl.png',
-            label: 'Pack',
+            label: 'Coffee & Tea',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },
           ),
           CategoryTile(
             imageLink: 'https://i.imgur.com/m65fusg.png',
-            label: 'Others',
+            label: 'Specials',
             onTap: () {
               Navigator.pushNamed(context, AppRoutes.categoryDetails);
             },

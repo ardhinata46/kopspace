@@ -88,12 +88,13 @@ class _AppLogoAndHeadline extends StatelessWidget {
     return Column(
       children: [
         SizedBox(
-          width: MediaQuery.of(context).size.width * 0.3,
+          width: MediaQuery.of(context).size.width * 0.5,
           child: const AspectRatio(
             aspectRatio: 1 / 1,
             child: NetworkImageWithLoader(AppImages.roundedLogo),
           ),
         ),
+        const SizedBox(height: AppDefaults.margin),
         Text(
           'Welcome to our',
           style: Theme.of(context)
@@ -102,7 +103,7 @@ class _AppLogoAndHeadline extends StatelessWidget {
               ?.copyWith(fontWeight: FontWeight.bold),
         ),
         Text(
-          'My Tami',
+          'Santap.id',
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: AppColors.primary,

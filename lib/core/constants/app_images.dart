@@ -1,5 +1,6 @@
 class AppImages {
   static const roundedLogo = 'https://i.imgur.com/9EsY2t6.png';
+  // static const roundedLogo = 'https://i.imgur.com/KCTl5n5.png';
 
   /* <---- Homepage banner -----> */
   static const homePageBanner = 'https://i.imgur.com/8hBIsS5.png';
@@ -8,7 +9,8 @@ class AppImages {
   static const illustrations404 = 'https://i.imgur.com/SGTzEiC.png';
 
   /* <---- INTRO LOGIN BACKGROUND IMAGES -----> */
-  static const introBackground1 = 'https://i.imgur.com/YQ9twZx.png';
+  // static const introBackground1 = 'https://i.imgur.com/YQ9twZx.png';
+  static const introBackground1 = 'https://i.imgur.com/oWk8ooN.jpeg';
   static const introBackground2 = 'https://i.imgur.com/3hgB1or.png';
 
   /* <---- ONBOARDING IMAGES -----> */

@@ -26,16 +26,16 @@ class PackDetails extends StatelessWidget {
           ),
           /* <---- Items here -----> */
           ...List.generate(
-            5,
+            3,
             (index) => ListTile(
               leading: const AspectRatio(
                 aspectRatio: 1 / 1,
                 child:
-                    NetworkImageWithLoader('https://i.imgur.com/Y0IFT2g.png'),
+                    NetworkImageWithLoader('https://i.imgur.com/sJ17LNS.png'),
               ),
-              title: const Text('Cabbage'),
+              title: const Text('Nasi Ayam Bakar + lalapan'),
               trailing: Text(
-                '2 Kg',
+                '1 porsi',
                 style: Theme.of(context)
                     .textTheme
                     .bodySmall

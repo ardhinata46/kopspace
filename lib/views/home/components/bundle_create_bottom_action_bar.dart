@@ -20,15 +20,15 @@ class BottomActionBar extends StatelessWidget {
       child: Row(
         children: [
           const ProductAvatarWithQuanitty(
-            productImage: 'https://i.imgur.com/vom6opy.png',
+            productImage: 'https://i.imgur.com/3x93N1M.png',
             quantity: 2,
           ),
           const ProductAvatarWithQuanitty(
-            productImage: 'https://i.imgur.com/GIqY9ym.png',
+            productImage: 'https://i.imgur.com/uyLzBLH.png',
             quantity: 0,
           ),
           const ProductAvatarWithQuanitty(
-            productImage: 'https://i.imgur.com/1xYlwGD.png',
+            productImage: 'https://i.imgur.com/Ys8j9rv.png',
             quantity: 5,
           ),
           // const ProductAvatarWithQuanitty(
@@ -37,7 +37,7 @@ class BottomActionBar extends StatelessWidget {
           // ),
           const Spacer(),
           Text(
-            '\$35.05',
+            'Rp 35.000',
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

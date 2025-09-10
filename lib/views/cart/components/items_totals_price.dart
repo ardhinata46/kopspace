@@ -17,24 +17,24 @@ class ItemTotalsAndPrice extends StatelessWidget {
         children: [
           ItemRow(
             title: 'Total Item',
-            value: '6',
+            value: '3',
           ),
-          ItemRow(
-            title: 'Weight',
-            value: '33 Kg',
-          ),
-          ItemRow(
-            title: 'Price',
-            value: '\$ 82.25',
-          ),
+          // ItemRow(
+          //   title: 'Weight',
+          //   value: '33 Kg',
+          // ),
           ItemRow(
             title: 'Price',
-            value: '\$ 12.25',
+            value: 'Rp 20.000',
+          ),
+          ItemRow(
+            title: 'Discount',
+            value: 'Rp 15.000',
           ),
           DottedDivider(),
           ItemRow(
             title: 'Total Price',
-            value: '\$ 70.25',
+            value: 'Rp 45.000',
           ),
         ],
       ),

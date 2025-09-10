@@ -26,7 +26,7 @@ class SingleCartItemTile extends StatelessWidget {
                 child: AspectRatio(
                   aspectRatio: 1 / 1,
                   child: NetworkImageWithLoader(
-                    'https://i.imgur.com/4YEHvGc.png',
+                    'https://i.imgur.com/3x93N1M.png',
                     fit: BoxFit.contain,
                   ),
                 ),
@@ -43,14 +43,14 @@ class SingleCartItemTile extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Sulphurfree Bura',
+                          'Nasi Ayam Kremes',
                           style: Theme.of(context)
                               .textTheme
                               .bodyLarge
                               ?.copyWith(color: Colors.black),
                         ),
                         Text(
-                          '570 Ml',
+                          '1 porsi',
                           style: Theme.of(context).textTheme.bodySmall,
                         ),
                       ],
@@ -94,7 +94,7 @@ class SingleCartItemTile extends StatelessWidget {
                     icon: SvgPicture.asset(AppIcons.delete),
                   ),
                   const SizedBox(height: 16),
-                  const Text('\$20'),
+                  const Text('Rp 20.000'),
                 ],
               )
             ],

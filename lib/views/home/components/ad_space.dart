@@ -14,11 +14,14 @@ class AdSpace extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: AppDefaults.padding),
       child: SizedBox(
         width: MediaQuery.of(context).size.width,
-        child: const AspectRatio(
-          aspectRatio: 16 / 9,
-          child: NetworkImageWithLoader(
-            'https://i.imgur.com/8hBIsS5.png',
-            fit: BoxFit.contain,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(16), // ubah angkanya sesuai kebutuhan
+          child: const AspectRatio(
+            aspectRatio: 16 / 9,
+            child: NetworkImageWithLoader(
+              'https://i.imgur.com/hm6SHbu.png',
+              fit: BoxFit.cover, // lebih bagus kalau mau penuh
+            ),
           ),
         ),
       ),

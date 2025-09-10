@@ -19,6 +19,7 @@ class LoginPageHeader extends StatelessWidget {
             child: NetworkImageWithLoader(AppImages.roundedLogo),
           ),
         ),
+        const SizedBox(height: AppDefaults.margin),
         Text(
           'Welcome to our',
           style: Theme.of(context)
@@ -27,7 +28,7 @@ class LoginPageHeader extends StatelessWidget {
               ?.copyWith(fontWeight: FontWeight.bold),
         ),
         Text(
-          'E-Grocery',
+          'Santap.id',
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: AppColors.primary,

@@ -24,9 +24,9 @@ class BundleProductDetailsPage extends StatelessWidget {
           children: [
             const ProductImagesSlider(
               images: [
-                'https://i.imgur.com/NOuZzbe.png',
-                'https://i.imgur.com/NOuZzbe.png',
-                'https://i.imgur.com/NOuZzbe.png',
+                'https://i.imgur.com/sJ17LNS.png',
+                'https://i.imgur.com/vHq6HB6.png',
+                'https://i.imgur.com/Ys8j9rv.png',
               ],
             ),
             /* <---- Product Data -----> */
@@ -45,9 +45,9 @@ class BundleProductDetailsPage extends StatelessWidget {
                     ),
                   ),
                   const PriceAndQuantityRow(
-                    currentPrice: 20,
-                    orginalPrice: 30,
-                    quantity: 2,
+                    currentPrice: 125000,
+                    orginalPrice: 150000,
+                    quantity: 1,
                   ),
                   const SizedBox(height: AppDefaults.padding / 2),
                   const BundleMetaData(),

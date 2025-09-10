@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kopspace/Helpers/currency_format.dart';
 
 import '../constants/constants.dart';
 import '../models/dummy_product_model.dart';
@@ -51,7 +52,7 @@ class ProductTileSquare extends StatelessWidget {
                       .textTheme
                       .titleMedium
                       ?.copyWith(color: Colors.black),
-                  maxLines: 2,
+                  maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
                 const Spacer(),
@@ -59,28 +60,34 @@ class ProductTileSquare extends StatelessWidget {
                   data.weight,
                 ),
                 const SizedBox(height: 4),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.end,
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      '\$${data.price.toInt()}',
-                      style: Theme.of(context)
+                      CurrencyFormat.convertToIdr(data.price, 0),
+                      style: Theme
+                          .of(context)
                           .textTheme
                           .titleLarge
-                          ?.copyWith(color: Colors.black),
+                          ?.copyWith(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                    const SizedBox(
-                      width: 4,
-                    ),
+                    const SizedBox(height: 4),
                     Text(
-                      '\$${data.mainPrice}',
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            decoration: TextDecoration.lineThrough,
-                          ),
+                      CurrencyFormat.convertToIdr(data.mainPrice, 0),
+                      style: Theme
+                          .of(context)
+                          .textTheme
+                          .bodyMedium
+                          ?.copyWith(
+                        decoration: TextDecoration.lineThrough,
+                        color: Colors.grey,
+                      ),
                     ),
                   ],
-                )
+                ),
               ],
             ),
           ),
